@@ -5,8 +5,9 @@ import {
   createBrowserRouter
 } from 'react-router-dom';
 // const Vans = lazy(() => import("@pages/Vans/Vans.jsx"));
-const Home = lazy(() => import('./pages/home/Home.tsx'));
+const Loader = lazy(() => import('./components/Loader.tsx'));
 const Layout = lazy(() => import('./components/Layout.tsx'));
+const Home = lazy(() => import('./pages/home/Home.tsx'));
 
 const routes = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const routes = createBrowserRouter([
 
 function AppRoutes() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loader />}>
       <RouterProvider router={routes} />
     </Suspense>
   );
