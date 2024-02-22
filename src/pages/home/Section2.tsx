@@ -2,7 +2,8 @@ function Section2() {
   return (
     <>
       <section className="">
-        <div className="px-36 mt-44 mb-5 flex justify-between">
+
+        <div className="px-36 flex justify-between">
           {/* Text */}
           <div className="">
             {/* header */}
@@ -24,11 +25,12 @@ function Section2() {
               </p>
             </div>
           </div>
+
+          {/* image */}
           <div className="relative w-[250px] h-[360px] rounded-[90px] bg-slate-600 drop-shadow-xl">
             <img src="" alt="" />
           </div>
 
-          {/* image */}
         </div>
 
         {/* Button */}
