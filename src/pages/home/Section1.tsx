@@ -1,6 +1,6 @@
 function Section1() {
   return (
-    <section className="px-36 flex justify-between">
+    <section className="flex justify-between">
 
       {/* left */}
       <div className="relative top-12">

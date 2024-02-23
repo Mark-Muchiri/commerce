@@ -3,11 +3,11 @@ function Section2() {
     <>
       <section className="">
 
-        <div className="px-36 flex justify-between">
+        <div className="flex justify-between">
           {/* Text */}
           <div className="">
             {/* header */}
-            <div className="">
+            <div className="relative ml-64">
               <p className="text-center text-6xl font-semibold text-neutral-800">
                 About Us
               </p>
