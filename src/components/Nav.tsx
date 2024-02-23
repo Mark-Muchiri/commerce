@@ -2,7 +2,7 @@ function Nav() {
   return (
     <>
       <div
-        className="bg-white w-full h-20 flex justify-between flex-row items-center px-36"
+        className="bg-white w-full h-20 flex justify-between flex-row items-center md:px-36 lg:px-36"
       >
         <div className="py-0.5">
           <p className="text-4xl font-extrabold items-center">
