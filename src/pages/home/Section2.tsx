@@ -7,7 +7,7 @@ function Section2() {
           {/* Text */}
           <div className="">
             {/* header */}
-            <div className="relative ml-64">
+            <div className="relative ml-40">
               <p className="text-center text-6xl font-semibold text-neutral-800">
                 About Us
               </p>
