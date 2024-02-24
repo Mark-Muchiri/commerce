@@ -18,13 +18,21 @@ function Section3() {
       </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-3 gap-y-16 pt-10">
+      <div className="grid grid-cols-3 gap-x-4 gap-y-16 pt-10 mx-14">
         {cards.map((_, index) => (
-          <div key={index} className="flex justify-center items-center0">
-            <div className="relative w-[370px] h-[390px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
-              {/* image */}
-              <div className="">
-                <img src="" alt="" />
+          <div key={index} className="flex justify-center items-center">
+            {/* Card */}
+            <div className="relative w-[390px] h-[460px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)] -mx-[330rem]">
+              {/* Image */}
+              <img
+                className="w-full h-[24rem] object-cover rounded-t-[25px] rounded-br-[25px]"
+                src="../../../public//decor/ambitious-studio-rick-barrett-eX4m4h64cvs-unsplash.jpg"
+                alt=""
+              />
+              {/* Name and price */}
+              <div className="text-center">
+                <h2 className='text-4xl font-semibold text-neutral-800 pt-4'>Mirror</h2>
+                <p className="text-[25px] text-blue-700">10</p>
               </div>
             </div>
           </div>
