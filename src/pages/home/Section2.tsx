@@ -3,23 +3,25 @@ function Section2() {
     <>
       <section className="">
 
-        <div className="flex justify-between">
-          {/* Text */}
+        {/* header */}
+        <div className="flex justify-center items-center">
           <div className="">
-            {/* header */}
-            <div className="relative ml-40">
-              <p className="text-center text-6xl font-semibold text-neutral-800">
-                About Us
-              </p>
-            </div>
+            <p className="text-center text-6xl font-semibold text-neutral-800">
+              About Us
+            </p>
+          </div>
+        </div>
 
+        <div className="flex justify-between">
+
+          <div className="">
             {/* details */}
-            <div className="">
-              <p className="relative pt-7 text-2xl text-neutral-800 w-[1170px]">
+            <div className="w-[1000px]">
+              <p className="relative pt-7 text-2xl text-neutral-800">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non veritatis alias odio similique facere dolores, a consectetur perferendis voluptatibus asperiores aut corporis pariatur quis nemo earum nulla quisquam voluptas nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non veritatis alias odio similique facere dolores, a consectetur perferendis voluptatibus asperiores aut corporis pariatur quis nemo earum nulla quisquam voluptas nostrum?
 
               </p>
-              <p className="relative pt-7 text-2xl text-neutral-800 w-[1170px]">
+              <p className="relative pt-7 text-2xl text-neutral-800">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non veritatis alias odio similique facere dolores, a consectetur perferendis voluptatibus asperiores aut corporis pariatur quis nemo earum nulla quisquam voluptas nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non veritatis alias odio similique facere dolores, a consectetur perferendis voluptatibus asperiores aut corporis pariatur quis nemo earum nulla quisquam voluptas nostrum?
 
               </p>

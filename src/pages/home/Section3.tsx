@@ -1,4 +1,7 @@
 function Section3() {
+  // Assume each card might hold different content in the future
+  const cards = Array(6).fill(null); // Example with 6 cards, fill with actual data as needed
+
   return (
     <section>
       {/* Header */}
@@ -14,40 +17,18 @@ function Section3() {
         </p>
       </div>
 
-      {/* Card */}
-      <div className="grid grid-cols-3 gap-y-16">
-        {/* card 1 */}
-        <div className="flex justify-center items-center pt-10">
-          <div className="flex justify-center items-center relative w-[370px] h-[390px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
+      {/* Cards */}
+      <div className="grid grid-cols-3 gap-y-16 pt-10">
+        {cards.map((_, index) => (
+          <div key={index} className="flex justify-center items-center0">
+            <div className="relative w-[370px] h-[390px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
+              {/* image */}
+              <div className="">
+                <img src="" alt="" />
+              </div>
+            </div>
           </div>
-        </div>
-        {/* card 1 */}
-        <div className="flex justify-center items-center pt-10">
-          <div className="flex justify-center items-center relative w-[370px] h-[390px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
-          </div>
-        </div>
-        {/* card 1 */}
-        <div className="flex justify-center items-center pt-10">
-          <div className="flex justify-center items-center relative w-[370px] h-[390px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
-          </div>
-        </div>
-        {/* card 1 */}
-        <div className="flex justify-center items-center pt-10">
-          <div className="flex justify-center items-center relative w-[370px] h-[390px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
-          </div>
-        </div>
-        {/* card 1 */}
-        <div className="flex justify-center items-center pt-10">
-          <div className="flex justify-center items-center relative w-[370px] h-[390px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
-          </div>
-        </div>
-        {/* card 1 */}
-        <div className="flex justify-center items-center pt-10">
-          <div className="flex justify-center items-center relative w-[370px] h-[390px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
-          </div>
-        </div>
-
-
+        ))}
       </div>
     </section>
   );
