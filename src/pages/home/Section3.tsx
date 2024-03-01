@@ -18,7 +18,7 @@ function Section3() {
       </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-3 gap-x-4 gap-y-16 pt-10 mx-14">
+      <div className="grid grid-cols-3 gap-x-4 gap-y-16 pt-10 lg:mx-20">
         {cards.map((_, index) => (
           <div key={index} className="flex justify-center items-center">
             {/* Card */}
