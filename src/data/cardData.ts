@@ -28,5 +28,20 @@ export default [
     "name": "Couch",
     "price": "60",
     "image": "/decor/micheile-henderson-MG4G0congO0-unsplash.jpg"
+  },
+  {
+    "name": "Table set",
+    "price": "40",
+    "image": "/decor/dan-gold-4HG3Ca3EzWw-unsplash.jpg"
+  },
+  {
+    "name": "Make up table set",
+    "price": "20",
+    "image": "/decor/minh-pham-7pCFUybP_P8-unsplash.jpg"
+  },
+  {
+    "name": "Woven chair",
+    "price": "40",
+    "image": "/decor/sonnie-hiles-L0BaowhFe4c-unsplash.jpg"
   }
 ];

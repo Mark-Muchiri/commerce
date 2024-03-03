@@ -22,8 +22,8 @@ function Section1() {
 
       {/* right */}
       {/* Image */}
-      <div className="relative w-[550px] h-[360px] rounded-[90px] bg-slate-600 drop-shadow-xl">
-        <img src="" alt="" />
+      <div className="relative w-[580px] h-[390px] rounded-[90px] bg-slate-600 drop-shadow-xl">
+        <img className="relative w-[580px] h-[390px] rounded-[90px] bg-slate-600 object-cover drop-shadow-xl" src="/decor/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt="" />
       </div>
 
     </section>

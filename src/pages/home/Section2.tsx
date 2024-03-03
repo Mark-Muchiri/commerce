@@ -29,8 +29,8 @@ function Section2() {
           </div>
 
           {/* image */}
-          <div className="relative w-[250px] h-[360px] rounded-[90px] bg-slate-600 drop-shadow-xl">
-            <img src="" alt="" />
+          <div className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 drop-shadow-xl">
+            <img className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 object-cover drop-shadow-xl" src="/decor/minh-pham-7pCFUybP_P8-unsplash.jpg" alt="" />
           </div>
 
         </div>
