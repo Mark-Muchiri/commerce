@@ -4,32 +4,32 @@ function Section3() {
     {
       "name": "Mirror",
       "price": "10",
-      "image": "/public/decor/ambitious-studio-rick-barrett-eX4m4h64cvs-unsplash.jpg"
+      "image": "/decor/ambitious-studio-rick-barrett-eX4m4h64cvs-unsplash.jpg"
     },
     {
       "name": "Chair",
       "price": "20",
-      "image": "/public/decor/angela-bailey-8KzgXVPTZn0-unsplash.jpg"
+      "image": "/decor/angela-bailey-8KzgXVPTZn0-unsplash.jpg"
     },
     {
       "name": "Table",
       "price": "30",
-      "image": "/public/decor/beazy-aX1TTOuq83M-unsplash.jpg"
+      "image": "/decor/beazy-aX1TTOuq83M-unsplash.jpg"
     },
     {
       "name": "Lamp",
       "price": "40",
-      "image": "/public/decor/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.jpg"
+      "image": "/decor/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.jpg"
     },
     {
       "name": "Sofa",
       "price": "50",
-      "image": "/public/decor/kari-shea-heISypiCno4-unsplash.jpg"
+      "image": "/decor/kari-shea-heISypiCno4-unsplash.jpg"
     },
     {
       "name": "Bookshelf",
       "price": "60",
-      "image": "/public/decor/micheile-henderson-MG4G0congO0-unsplash.jpg"
+      "image": "/decor/micheile-henderson-MG4G0congO0-unsplash.jpg"
     }
   ]; // Example with 6 cards, fill with actual data as needed
 
