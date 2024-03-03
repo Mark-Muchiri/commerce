@@ -1,6 +1,37 @@
 function Section3() {
   // Assume each card might hold different content in the future
-  const cards = Array(6).fill(null); // Example with 6 cards, fill with actual data as needed
+  const cards = [
+    {
+      "name": "Mirror",
+      "price": "10",
+      "image": "/public/decor/ambitious-studio-rick-barrett-eX4m4h64cvs-unsplash.jpg"
+    },
+    {
+      "name": "Chair",
+      "price": "20",
+      "image": "/public/decor/angela-bailey-8KzgXVPTZn0-unsplash.jpg"
+    },
+    {
+      "name": "Table",
+      "price": "30",
+      "image": "/public/decor/beazy-aX1TTOuq83M-unsplash.jpg"
+    },
+    {
+      "name": "Lamp",
+      "price": "40",
+      "image": "/public/decor/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.jpg"
+    },
+    {
+      "name": "Sofa",
+      "price": "50",
+      "image": "/public/decor/kari-shea-heISypiCno4-unsplash.jpg"
+    },
+    {
+      "name": "Bookshelf",
+      "price": "60",
+      "image": "/public/decor/micheile-henderson-MG4G0congO0-unsplash.jpg"
+    }
+  ]; // Example with 6 cards, fill with actual data as needed
 
   return (
     <section>
@@ -19,20 +50,20 @@ function Section3() {
 
       {/* Cards */}
       <div className="grid grid-cols-3 gap-x-4 gap-y-16 pt-10 lg:mx-20">
-        {cards.map((_, index) => (
+        {cards.map((card, index) => (
           <div key={index} className="flex justify-center items-center">
             {/* Card */}
             <div className="relative w-[380px] h-[470px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)] -mx-[330rem]">
               {/* Image */}
               <img
                 className="w-full h-[24rem] object-cover rounded-t-[25px] rounded-br-[25px]"
-                src="decor/ambitious-studio-rick-barrett-eX4m4h64cvs-unsplash.jpg"
-                alt=""
+                src={card.image}
+                alt={card.name}
               />
               {/* Name and price */}
               <div className="text-center">
-                <h2 className='text-4xl font-semibold text-neutral-800 pt-6'>Mirror</h2>
-                <p className="text-[25px] text-blue-700">10</p>
+                <h2 className='text-4xl font-semibold text-neutral-800 pt-6'>{card.name}</h2>
+                <p className="text-[25px] text-blue-700">{card.price}</p>
               </div>
             </div>
           </div>
