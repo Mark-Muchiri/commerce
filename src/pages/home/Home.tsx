@@ -2,6 +2,7 @@ import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Section4 from "./Section4";
+import Section5 from "./Section5";
 
 function Home() {
   return (
@@ -15,8 +16,11 @@ function Home() {
       <div className="pb-40 md:px-36 lg:px-36">
         <Section3 />
       </div>
-      <div className="pb-96 md:px-36 lg:px-36">
+      <div className="pb-40 md:px-36 lg:px-36">
         <Section4 />
+      </div>
+      <div className="pb-96 md:px-36 lg:px-36">
+        <Section5 />
       </div>
     </>
   );
