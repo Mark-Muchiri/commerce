@@ -1,37 +1,11 @@
+import cards from '../../data/cardData.ts';
+
 function Section3() {
-  // Assume each card might hold different content in the future
-  const cards = [
-    {
-      "name": "Mirror",
-      "price": "10",
-      "image": "/decor/ambitious-studio-rick-barrett-eX4m4h64cvs-unsplash.jpg"
-    },
-    {
-      "name": "Chair",
-      "price": "20",
-      "image": "/decor/angela-bailey-8KzgXVPTZn0-unsplash.jpg"
-    },
-    {
-      "name": "Table",
-      "price": "30",
-      "image": "/decor/beazy-aX1TTOuq83M-unsplash.jpg"
-    },
-    {
-      "name": "Lamp",
-      "price": "40",
-      "image": "/decor/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.jpg"
-    },
-    {
-      "name": "Sofa",
-      "price": "50",
-      "image": "/decor/kari-shea-heISypiCno4-unsplash.jpg"
-    },
-    {
-      "name": "Bookshelf",
-      "price": "60",
-      "image": "/decor/micheile-henderson-MG4G0congO0-unsplash.jpg"
-    }
-  ]; // Example with 6 cards, fill with actual data as needed
+  interface Card {
+    name: string;
+    price: string;
+    image: string;
+  }
 
   return (
     <section>
@@ -50,7 +24,7 @@ function Section3() {
 
       {/* Cards */}
       <div className="grid grid-cols-3 gap-x-4 gap-y-16 pt-10 lg:mx-20">
-        {cards.map((card, index) => (
+        {cards.map((card: Card, index) => (
           <div key={index} className="flex justify-center items-center">
             {/* Card */}
             <div className="relative w-[380px] h-[470px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)] -mx-[330rem]">
@@ -63,7 +37,7 @@ function Section3() {
               {/* Name and price */}
               <div className="text-center">
                 <h2 className='text-4xl font-semibold text-neutral-800 pt-6'>{card.name}</h2>
-                <p className="text-[25px] text-blue-700">{card.price}</p>
+                <p className="text-[25px] text-blue-700">${card.price}</p>
               </div>
             </div>
           </div>

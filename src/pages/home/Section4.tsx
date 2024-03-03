@@ -6,11 +6,14 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import cards from '../../data/cardData.ts';
 
 function Section4() {
-
-  // Assume each card might hold different content in the future
-  // const cards = Array(4).fill(null);
+  interface Card {
+    name: string;
+    price: string;
+    image: string;
+  }
 
   return (
     <section>
@@ -27,26 +30,24 @@ function Section4() {
           className="w-full max-w-full"
         >
           <CarouselContent>
-            {Array.from({ length: 8 }).map((_, index) => (
+            {cards.map((card: Card, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
                 <div className="p-1">
                   <Card>
                     <CardContent className="">
-
                       {/* Image */}
                       <div className="relative h-[260px] w-full object-cover rounded-t-[15px] rounded-br-[15px]">
                         <img
-                          className="w-full h-full  object-cover rounded-t-[15px] rounded-br-[15px]"
-                          src="decor/ambitious-studio-rick-barrett-eX4m4h64cvs-unsplash.jpg"
-                          alt=""
+                          className="w-full h-full object-cover rounded-t-[15px] rounded-br-[15px]"
+                          src={card.image}
+                          alt={card.name}
                         />
                       </div>
                       {/* Name and price */}
                       <div className="relative pt-2 text-center">
-                        <h2 className='text-4xl font-semibold text-neutral-800'>Mirror</h2>
-                        <p className="text-[25px] text-blue-700">10</p>
+                        <h2 className='text-4xl font-semibold text-neutral-800'>{card.name}</h2>
+                        <p className="text-[25px] text-blue-700">${card.price}</p>
                       </div>
-
                     </CardContent>
                   </Card>
                 </div>
@@ -57,6 +58,7 @@ function Section4() {
           <CarouselNext />
         </Carousel>
       </div>
+
     </section>
   );
 }
