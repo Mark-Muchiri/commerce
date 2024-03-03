@@ -19,7 +19,7 @@ function Home() {
       <div className="pb-40 md:px-36 lg:px-36">
         <Section4 />
       </div>
-      <div className="pb-96 md:px-36 lg:px-36">
+      <div className="pb-40 md:px-36 lg:px-36">
         <Section5 />
       </div>
     </>
