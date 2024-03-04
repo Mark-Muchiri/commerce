@@ -44,7 +44,7 @@ function Section4() {
                         />
                       </div>
                       {/* Name and price */}
-                      <div className="relative pt-2 text-center">
+                      <div className="relative pt-1 md:pt-1 lg:pt-2 text-center">
                         <h2 className='text-4xl font-semibold text-neutral-800'>{card.name}</h2>
                         <p className="text-[25px] text-blue-700">${card.price}</p>
                       </div>
