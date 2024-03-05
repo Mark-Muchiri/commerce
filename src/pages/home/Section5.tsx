@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 function Section5() {
   return (
     <section>
@@ -14,7 +17,14 @@ function Section5() {
         {/* Input with Button inside */}
         <div className="pt-10 flex justify-center items-center">
           <div className="relative w-[1200px] h-[300px] rounded-[50px] overflow-hidden bg-blue-900 drop-shadow-xl">
-            <img className="absolute inset-0 w-full h-full object-cover" src="/public/flowers.jpg" alt="" />
+            {/* <img className="absolute inset-0 w-full h-full object-cover" src="/public/flowers.jpg" alt="" /> */}
+            <LazyLoadImage
+              className="absolute inset-0 w-full h-full object-cover"
+              src={`/public/flowers.jpg`}
+              alt={``}
+              height={`100%`}
+              width={`100%`}
+            />
             <div className="absolute inset-x-0 bottom-28 w-2/3 mx-auto flex justify-center">
               <div className="flex w-full max-w-[100rem] items-center rounded-2xl bg-white/80 backdrop-blur-sm overflow-hidden">
                 <input
@@ -28,7 +38,7 @@ function Section5() {
                   Subscribe
                 </button>
               </div>
-            </div>
+              L</div>
           </div>
         </div>
       </div>

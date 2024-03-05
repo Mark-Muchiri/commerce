@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 function Nav() {
   return (
     <>
@@ -21,7 +24,14 @@ function Nav() {
             </ul>
           </div>
           <div className="relative bottom-0 w-20">
-            <img className="w-full -h-full" src="/nav/Cart.svg" />
+            {/* <img className="w-full -h-full" src="/nav/Cart.svg" /> */}
+            <LazyLoadImage
+              className="w-full -h-full"
+              src={`/nav/Cart.svg`}
+              alt={``}
+              height={`100%`}
+              width={`100%`}
+            />
           </div>
         </div>
       </div>

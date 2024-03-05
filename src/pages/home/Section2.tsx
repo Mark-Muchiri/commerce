@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 function Section2() {
   return (
     <>
@@ -30,7 +33,15 @@ function Section2() {
 
           {/* image */}
           <div className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 drop-shadow-xl">
-            <img className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 object-cover drop-shadow-xl" src="/decor/minh-pham-7pCFUybP_P8-unsplash.jpg" alt="" />
+            {/* <img className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 object-cover drop-shadow-xl" src="/decor/minh-pham-7pCFUybP_P8-unsplash.jpg" alt="" /> */}
+            <LazyLoadImage
+              className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 object-cover drop-shadow-xl"
+              effect='blur'
+              src={`/decor/minh-pham-7pCFUybP_P8-unsplash.jpg`}
+              alt={``}
+              height={`400px`}
+              width={`300px`}
+            />
           </div>
 
         </div>

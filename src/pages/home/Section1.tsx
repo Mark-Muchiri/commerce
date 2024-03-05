@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 function Section1() {
   return (
     <section className="flex justify-between">
@@ -23,7 +26,15 @@ function Section1() {
       {/* right */}
       {/* Image */}
       <div className="relative w-[580px] h-[390px] rounded-[90px] bg-slate-600 drop-shadow-xl">
-        <img className="relative w-[580px] h-[390px] rounded-[90px] bg-slate-600 object-cover drop-shadow-xl" src="/decor/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt="" />
+        {/* <img className="relative w-[580px] h-[390px] rounded-[90px] bg-slate-600 object-cover drop-shadow-xl" src="/decor/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt="" /> */}
+        <LazyLoadImage
+          className="relative w-[580px] h-[390px] rounded-[90px] bg-slate-600 object-cover drop-shadow-xl"
+          effect='blur'
+          src={`/decor/dan-gold-4HG3Ca3EzWw-unsplash.jpg`}
+          alt={`Image of house decor`}
+          height={`390px`}
+          width={`580px`}
+        />
       </div>
 
     </section>
