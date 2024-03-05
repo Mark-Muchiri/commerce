@@ -67,7 +67,7 @@ function Section4() {
                           alt={card.name}
                         /> */}
                         <LazyLoadImage
-                          lassName="w-full h-full object-cover rounded-t-[15px] rounded-br-[15px]"
+                          className="relative w-full h-full object-cover rounded-t-[15px] rounded-br-[15px]"
                           effect='blur'
                           src={card.image}
                           alt={card.name}

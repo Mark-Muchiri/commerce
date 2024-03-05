@@ -1,5 +1,5 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import "react-lazy-load-image-component/src/effects/blur.css"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import "react-lazy-load-image-component/src/effects/blur.css";
 import cardsData from '../../data/cardData.ts';
 
 function Section3() {
@@ -42,12 +42,12 @@ function Section3() {
                 effect='blur'
                 src={card.image}
                 alt={card.name}
-                height={`24rem`}
+                height={`384px`}
                 width={`100%`}
               />
               {/* Name and price */}
-              <div className="text-center">
-                <h2 className='text-4xl font-semibold text-neutral-800 pt-6'>{card.name}</h2>
+              <div className="text-center -mt-10">
+                <h2 className='text-4xl font-semibold text-neutral-800 pt-0'>{card.name}</h2>
                 <p className="text-[25px] text-blue-700">${card.price}</p>
               </div>
             </div>
