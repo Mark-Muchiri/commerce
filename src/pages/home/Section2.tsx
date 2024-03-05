@@ -32,10 +32,10 @@ function Section2() {
           </div>
 
           {/* image */}
-          <div className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 drop-shadow-xl">
-            {/* <img className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 object-cover drop-shadow-xl" src="/decor/minh-pham-7pCFUybP_P8-unsplash.jpg" alt="" /> */}
+          <div className="relative w-[300px] h-[400px] rounded-[50px]  drop-shadow-xl">
+            {/* <img className="relative w-[300px] h-[400px] rounded-[50px] object-cover drop-shadow-xl" src="/decor/minh-pham-7pCFUybP_P8-unsplash.jpg" alt="" /> */}
             <LazyLoadImage
-              className="relative w-[300px] h-[400px] rounded-[50px] bg-slate-600 object-cover drop-shadow-xl"
+              className="relative w-[300px] h-[400px] rounded-[50px] object-cover drop-shadow-xl"
               effect='blur'
               src={`/decor/minh-pham-7pCFUybP_P8-unsplash.jpg`}
               alt={``}

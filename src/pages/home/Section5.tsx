@@ -22,8 +22,8 @@ function Section5() {
               className="absolute inset-0 w-full h-full object-cover"
               src={`/public/flowers.jpg`}
               alt={``}
-              height={`100%`}
-              width={`100%`}
+              height={`1200px`}
+              width={`300px`}
             />
             <div className="absolute inset-x-0 bottom-28 w-2/3 mx-auto flex justify-center">
               <div className="flex w-full max-w-[100rem] items-center rounded-2xl bg-white/80 backdrop-blur-sm overflow-hidden">
