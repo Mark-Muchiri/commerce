@@ -19,7 +19,7 @@ function Section2() {
 
           <div className="">
             {/* details */}
-            <div className="w-[1000px]">
+            <div className="w-11/12">
               <p className="relative pt-7 text-2xl text-neutral-800">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non veritatis alias odio similique facere dolores, a consectetur perferendis voluptatibus asperiores aut corporis pariatur quis nemo earum nulla quisquam voluptas nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non veritatis alias odio similique facere dolores, a consectetur perferendis voluptatibus asperiores aut corporis pariatur quis nemo earum nulla quisquam voluptas nostrum?
 

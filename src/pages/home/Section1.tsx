@@ -14,7 +14,7 @@ function Section1() {
           </p>
         </div>
         {/* paragraph */}
-        <div className="relative top-5 text-2xl text-neutral-800 w-[570px]">
+        <div className="relative top-5 text-2xl text-neutral-800 w-11/12">
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non veritatis alias odio similique facere dolores, a consectetur perferendis voluptatibus asperiores aut corporis pariatur quis nemo earum nulla quisquam voluptas nostrum?</p>
         </div>
         {/* button */}

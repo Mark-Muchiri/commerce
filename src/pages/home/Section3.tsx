@@ -26,7 +26,7 @@ function Section3() {
       {/* Header and Sentence as before */}
 
       {/* Cards */}
-      <div className="grid grid-cols-3 gap-x-4 gap-y-16 pt-10 lg:mx-20">
+      <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-2 lg:grid-cols-3 gap-x-4 gap-y-16 pt-10 lg:mx-20">
         {shuffledAndLimitedCards.map((card: Card, index) => (
           <div key={index} className="flex justify-center items-center">
             {/* Card */}
@@ -48,12 +48,13 @@ function Section3() {
               {/* Name and price */}
               <div className="text-center -mt-10">
                 <h2 className='text-4xl font-semibold text-neutral-800 pt-0'>{card.name}</h2>
-                <p className="text-[25px] text-blue-700">${card.price}</p>
+                <p className="text-[24px] font-semibold text-blue-800">$ {card.price}</p>
               </div>
             </div>
           </div>
         ))}
       </div>
+
     </section>
   );
 }
