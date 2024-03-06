@@ -32,11 +32,6 @@ function Section3() {
             {/* Card */}
             <div className="relative w-[380px] h-[470px] rounded-[25px] bg-slate-100 border-blue-600 border-0 shadow-[2px_8px_8px_1px_rgba(0,0,0,0.2)]">
               {/* Image */}
-              {/* <img
-                className="w-full h-[24rem] object-cover rounded-t-[25px] rounded-br-[25px]"
-                src={card.image}
-                alt={card.name}
-              /> */}
               <LazyLoadImage
                 className="w-full h-[24rem] object-cover rounded-t-[25px] rounded-br-[25px]"
                 effect='blur'
