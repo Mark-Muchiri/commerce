@@ -7,10 +7,10 @@ const Section1 = lazy(() => import("./Section1"));
 function Shop() {
   return (
     <Suspense fallback={<Loader />}>
-      <div className="my-32">
+      <div className="mt-10">
         <Section1 />
       </div>
-      <div className="my-32 md:px-36 lg:px-36">
+      <div className="my-24 md:px-36 lg:px-36">
         <Section2 />
       </div>
     </Suspense>
