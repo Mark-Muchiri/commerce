@@ -54,7 +54,7 @@ function Footer() {
           <div className="relative bottom-0 px-1">
             <LazyLoadImage
               className="w-14"
-              src={`/public/footerLogos/twitter.png`}
+              src={`/footerLogos/twitter.png`}
               alt={``}
               width={`56px`}
             />
@@ -62,7 +62,7 @@ function Footer() {
           <div className="relative bottom-0 px-1">
             <LazyLoadImage
               className="w-14"
-              src={`/public/footerLogos/instagram.png`}
+              src={`/footerLogos/instagram.png`}
               alt={``}
               width={`56px`}
             />
@@ -70,7 +70,7 @@ function Footer() {
           <div className="relative bottom-0 px-1">
             <LazyLoadImage
               className="w-14"
-              src={`/public/footerLogos/whatsapp.png`}
+              src={`/footerLogos/whatsapp.png`}
               alt={``}
               width={`56px`}
             />
@@ -78,7 +78,7 @@ function Footer() {
           <div className="relative bottom-0 px-1">
             <LazyLoadImage
               className="w-14"
-              src={`/public/footerLogos/youtube.png`}
+              src={`/footerLogos/youtube.png`}
               alt={``}
               width={`56px`}
             />
@@ -103,7 +103,7 @@ function Footer() {
               <div className="border-2 border-blue-700 w-56 h-[4.4rem] rounded-[6px] flex justify-center items-center px-5">
                 <LazyLoadImage
                   className="w-9 mr-3"
-                  src={`/public/footerLogos/google-play.png`}
+                  src={`/footerLogos/google-play.png`}
                   alt={``}
                   width={`36px`}
                 />
@@ -117,7 +117,7 @@ function Footer() {
               <div className="border-2 border-blue-700 w-56 h-[4.4rem] rounded-[6px] flex justify-center items-center px-5">
                 <LazyLoadImage
                   className="w-9 mr-3"
-                  src={`/public/footerLogos/apple-logo.png`}
+                  src={`/footerLogos/apple-logo.png`}
                   alt={``}
                   width={`36px`}
                 />
@@ -141,7 +141,7 @@ function Footer() {
           <div className="relative bottom-0 px-1">
             <LazyLoadImage
               className="w-14"
-              src={`/public/footerLogos/visa.png`}
+              src={`/footerLogos/visa.png`}
               alt={``}
               width={`56px`}
             />
@@ -149,7 +149,7 @@ function Footer() {
           <div className="relative bottom-0 px-1">
             <LazyLoadImage
               className="w-14"
-              src={`/public/footerLogos/mastercard.svg`}
+              src={`/footerLogos/mastercard.svg`}
               alt={``}
               width={`56px`}
             />
@@ -157,7 +157,7 @@ function Footer() {
           <div className="relative bottom-0 px-1">
             <LazyLoadImage
               className="w-14"
-              src={`/public/footerLogos/paypal.png`}
+              src={`/footerLogos/paypal.png`}
               alt={``}
               width={`56px`}
             />
