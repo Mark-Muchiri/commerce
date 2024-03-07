@@ -4,6 +4,7 @@ import {
   RouterProvider,
   createBrowserRouter
 } from 'react-router-dom';
+import Shop from './pages/shop/Shop.tsx';
 // const Vans = lazy(() => import("@pages/Vans/Vans.jsx"));
 const Loader = lazy(() => import('./components/Loader.tsx'));
 const Layout = lazy(() => import('./components/Layout.tsx'));
@@ -17,6 +18,11 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        errorElement: <p>Error</p>
+      },
+      {
+        path: "/shop",
+        element: <Shop />,
         errorElement: <p>Error</p>
       }
     ]

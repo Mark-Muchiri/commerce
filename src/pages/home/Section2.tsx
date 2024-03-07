@@ -33,11 +33,10 @@ function Section2() {
 
           {/* image */}
           <div className="relative w-[300px] h-[400px] rounded-[50px]  drop-shadow-xl">
-            {/* <img className="relative w-[300px] h-[400px] rounded-[50px] object-cover drop-shadow-xl" src="/decor/minh-pham-7pCFUybP_P8-unsplash.jpg" alt="" /> */}
             <LazyLoadImage
               className="relative w-[300px] h-[400px] rounded-[50px] object-cover drop-shadow-xl"
               effect='blur'
-              src={`/decor/minh-pham-7pCFUybP_P8-unsplash.jpg`}
+              src={`https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`}
               alt={``}
               height={`400px`}
               width={`300px`}

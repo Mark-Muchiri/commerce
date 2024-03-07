@@ -20,7 +20,7 @@ function Section5() {
             {/* <img className="absolute inset-0 w-full h-full object-cover" src="/public/flowers.jpg" alt="" /> */}
             <LazyLoadImage
               className="absolute inset-0 w-full h-full object-cover"
-              src={`/public/flowers.jpg`}
+              src={`https://images.unsplash.com/photo-1471696035578-3d8c78d99684?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`}
               alt={``}
               height={`1200px`}
               width={`300px`}
@@ -38,7 +38,7 @@ function Section5() {
                   Subscribe
                 </button>
               </div>
-              L</div>
+            </div>
           </div>
         </div>
       </div>

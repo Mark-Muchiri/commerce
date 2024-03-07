@@ -1,5 +1,6 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -16,9 +17,9 @@ function Nav() {
           <div>
             <ul className="relative flex justify-end gap-14 pr-10 items-center top-4 text-xl">
               <li className="font-semibold text-amber-800">
-                Home
+                <Link className='font-semibold' to="/">Home</Link>
               </li>
-              <li>Shop</li>
+              <li><Link to="/shop">Shop</Link></li>
               <li>About us</li>
               <li>Contact</li>
             </ul>

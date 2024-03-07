@@ -1,4 +1,4 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Section1() {
@@ -26,11 +26,10 @@ function Section1() {
       {/* right */}
       {/* Image */}
       <div className="relative w-[580px] h-[390px] rounded-[90px] drop-shadow-xl">
-        {/* <img className="relative w-[580px] h-[390px] rounded-[90px]  object-cover drop-shadow-xl" src="/decor/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt="" /> */}
         <LazyLoadImage
           className="relative w-[580px] h-[390px] rounded-[90px]  object-cover drop-shadow-xl"
           effect='blur'
-          src={`/decor/dan-gold-4HG3Ca3EzWw-unsplash.jpg`}
+          src={`https://images.unsplash.com/photo-1616593871468-2a9452218369?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`}
           alt={`Image of house decor`}
           height={`390px`}
           width={`580px`}
