@@ -15,9 +15,9 @@ function Section1() {
             className="flex-grow p-7 text-2xl focus:outline-none"
           />
           <button
-            className="px-10 text-2xl h-full bg-blue-100 hover:bg-blue-200 text-white font-bold transition-colors flex items-center justify-center"
+            className="px-8 text-2xl h-full bg-blue-100 hover:bg-blue-200 text-white font-bold transition-colors flex items-center justify-center"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-14" fill="none" viewBox="0 0 24 24" stroke="#808080" strokeWidth="3">
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-14" fill="none" viewBox="0 0 24 24" stroke="#808080" strokeWidth="1.3">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
           </button>
