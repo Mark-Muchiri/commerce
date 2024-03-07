@@ -52,5 +52,23 @@ export default [
     "price": "40",
     "image": "https://images.unsplash.com/photo-1652009795525-99cac7321435?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnVybml0dXJlfGVufDB8fDR8fHww",
     "rating": 1
-  }
+  },
+  {
+    "name": "Dinning table set",
+    "price": "100",
+    "image": "https://images.unsplash.com/photo-1586712723011-f4132c9e71b0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4
+  },
+  {
+    "name": "Book shelf",
+    "price": "50",
+    "image": "https://images.unsplash.com/photo-1588173254663-28f1680f6cdf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 5
+  },
+  {
+    "name": "Study table set",
+    "price": "70",
+    "image": "https://images.unsplash.com/photo-1486946255434-2466348c2166?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4
+  },
 ];

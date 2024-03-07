@@ -63,6 +63,7 @@ function Section4() {
           <CarouselContent>
             {shuffledCards.map((card: Card, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
+                
                 <div className="p-1">
                   <Card className=''>
                     <CardContent className="">
@@ -99,6 +100,7 @@ function Section4() {
                     </CardContent>
                   </Card>
                 </div>
+
               </CarouselItem>
             ))}
           </CarouselContent>

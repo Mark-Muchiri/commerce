@@ -3,7 +3,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Section1() {
   return (
-    <section className="py-32">
+    <section className="">
 
       <div className="inset-x-0 bottom-0 w-2/3 mx-auto flex justify-center">
 
