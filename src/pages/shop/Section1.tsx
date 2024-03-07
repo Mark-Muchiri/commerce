@@ -31,7 +31,7 @@ function Section1() {
             <LazyLoadImage
               className="w-10"
               effect='blur'
-              src={`/public/filter.png`}
+              src={`/filter.png`}
               alt={``}
               height={`40px`}
               width={`40px`}
