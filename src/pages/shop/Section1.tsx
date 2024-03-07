@@ -12,7 +12,8 @@ function Section1() {
           <input
             type="text"
             placeholder="Search"
-            className="flex-grow p-7 text-2xl focus:outline-none"
+            className="flex-grow p-7 text-2xl focus:outline-none valid:text-blue-900
+             focus:valid:ring-blue-500"
           />
           <button
             className="px-8 text-2xl h-full bg-blue-100 hover:bg-blue-200 text-white font-bold transition-colors flex items-center justify-center"
