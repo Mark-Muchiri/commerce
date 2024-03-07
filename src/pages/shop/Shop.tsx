@@ -1,7 +1,9 @@
+import Section1 from "./Section1";
+
 function Shop() {
   return (
     <section>
-      <p className="text-center py-40 font-bold text-4xl">Shop</p>
+      <Section1 />
     </section>
   );
 }

@@ -68,11 +68,6 @@ function Section4() {
                     <CardContent className="">
                       {/* Image */}
                       <div className="relative h-[260px] w-full object-cover rounded-t-[15px] rounded-br-[15px]">
-                        {/* <img
-                          className="w-full h-full object-cover rounded-t-[15px] rounded-br-[15px]"
-                          src={card.image}
-                          alt={card.name}
-                        /> */}
                         <LazyLoadImage
                           className="relative w-full h-full object-cover rounded-t-[15px] rounded-br-[15px]"
                           effect='blur'

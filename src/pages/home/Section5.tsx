@@ -17,7 +17,6 @@ function Section5() {
         {/* Input with Button inside */}
         <div className="pt-10 flex justify-center items-center">
           <div className="relative w-[1200px] h-[300px] rounded-[50px] overflow-hidden bg-blue-900 drop-shadow-xl">
-            {/* <img className="absolute inset-0 w-full h-full object-cover" src="/public/flowers.jpg" alt="" /> */}
             <LazyLoadImage
               className="absolute inset-0 w-full h-full object-cover"
               src={`https://images.unsplash.com/photo-1471696035578-3d8c78d99684?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`}
@@ -41,6 +40,7 @@ function Section5() {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
