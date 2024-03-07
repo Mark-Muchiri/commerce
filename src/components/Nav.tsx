@@ -1,6 +1,6 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -16,12 +16,32 @@ function Nav() {
         <div className="flex flex-row">
           <div>
             <ul className="relative flex justify-end gap-14 pr-10 items-center top-4 text-xl">
-              <li className="font-semibold text-amber-800">
-                <Link className='font-semibold' to="/">Home</Link>
-              </li>
-              <li><Link to="/shop">Shop</Link></li>
-              <li>About us</li>
-              <li>Contact</li>
+              <NavLink
+                className={
+                  ({ isActive }) => (isActive ? `font-semibold text-amber-800` : ``)
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? `font-semibold text-amber-800` : ``)}
+                to="/shop"
+              >
+                Shop
+              </NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? `font-semibold text-amber-800` : ``)}
+                to="/aboutus"
+              >
+                About us
+              </NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? `font-semibold text-amber-800` : ``)}
+                to="/contact"
+              >
+                Contact
+              </NavLink>
             </ul>
           </div>
           <div className="relative bottom-0 w-20">
