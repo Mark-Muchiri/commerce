@@ -103,7 +103,7 @@ function Section2() {
           <LazyLoadImage
             className="w-10 pt-[0.40rem]"
             effect='blur'
-            src={`/public/right-arrow-svgrepo-com.svg`}
+            src={`/right-arrow-svgrepo-com.svg`}
             alt={``}
             height={`40px`}
             width={`40px`}
