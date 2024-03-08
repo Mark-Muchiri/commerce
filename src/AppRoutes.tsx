@@ -21,7 +21,7 @@ const routes = createBrowserRouter([
         errorElement: <p>Error</p>
       },
       {
-        path: "/shop",
+        path: "/#shop",
         element: <Shop />,
         errorElement: <p>Error</p>
       }
