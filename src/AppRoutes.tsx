@@ -5,7 +5,6 @@ import {
   createBrowserRouter
 } from 'react-router-dom';
 import Shop from './pages/shop/Shop.tsx';
-// const Vans = lazy(() => import("@pages/Vans/Vans.jsx"));
 const Loader = lazy(() => import('./components/Loader.tsx'));
 const Layout = lazy(() => import('./components/Layout.tsx'));
 const Home = lazy(() => import('./pages/home/Home.tsx'));
@@ -21,7 +20,7 @@ const routes = createBrowserRouter([
         errorElement: <p>Error</p>
       },
       {
-        path: "/#shop",
+        path: "/shop",
         element: <Shop />,
         errorElement: <p>Error</p>
       }

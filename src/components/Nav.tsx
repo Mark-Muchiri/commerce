@@ -26,7 +26,7 @@ function Nav() {
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? `font-semibold text-amber-800` : ``)}
-                to="/#shop"
+                to="/shop"
               >
                 Shop
               </NavLink>
