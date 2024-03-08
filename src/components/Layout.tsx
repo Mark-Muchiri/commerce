@@ -1,13 +1,11 @@
 import { Outlet } from "react-router-dom";
 import Nav from "./Nav.tsx";
 import Footer from "./Footer.tsx";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 {/* Your layout structure */ }
 function Layout() {
   return (
     <>
-      <SpeedInsights />
       <Nav />
       {/* This line is crucial */}
       <Outlet />
