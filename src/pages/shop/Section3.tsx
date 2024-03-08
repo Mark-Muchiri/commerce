@@ -3,7 +3,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import { Card, CardContent } from "@/components/ui/card";
 import cardsData from '../../data/cardData.ts';
 
-function Section2() {
+function Section3() {
   interface Card {
     name: string;
     price: string;
@@ -20,8 +20,8 @@ function Section2() {
     return array;
   }
 
-  // Shuffle the cards and limit to 12
-  const shuffledAndLimitedCards = shuffleArray([ ...cardsData ]).slice(0, 12);
+  // Shuffle the cards and limit to 8
+  const shuffledAndLimitedCards = shuffleArray([ ...cardsData ]).slice(0, 8);
 
   // Function to render star ratings
   const renderStars = (rating: number) => {
@@ -32,8 +32,8 @@ function Section2() {
 
   return (
     <section>
-      <p className="text-neutral-800 font-bold text-5xl mb-12 pb-1 pl-3">
-        All Product
+      <p className="text-neutral-800 font-bold text-4xl mb-12 pl-3">
+        New arrivals
       </p>
 
       {/* Adjust the layout to display cards in a 4x3 grid */}
@@ -81,39 +81,8 @@ function Section2() {
           )
         }
       </div>
-
-      {/* Pagination buttons */}
-      <div className="mt-14 flex justify-center items- h-16">
-        <button
-          className="ml-4 px-4 w-16 bg-blue-100 text-blue-900 font-bold transition-colors flex items-center justify-center shadow-[10px_10px_10px_4px_rgba(0,0,0,0.2)] rounded-2xl hover:bg-blue-200"
-        >
-          <p className='font-semibold text-blue-700 text-3xl'>
-            1
-          </p>
-        </button>
-        <button
-          className="ml-4 px-4 w-16 bg-blue-100 text-blue-900 font-bold transition-colors flex items-center justify-center shadow-[10px_10px_10px_4px_rgba(0,0,0,0.2)] rounded-2xl hover:bg-blue-200"
-        >
-          <p className='font-semibold text-blue-700 text-3xl'>
-            2
-          </p>
-        </button>
-        <button
-          className="ml-4 px-4 w-16 bg-blue-100 text-blue-900 font-bold transition-colors flex items-center justify-center shadow-[10px_10px_10px_4px_rgba(0,0,0,0.2)] rounded-2xl hover:bg-blue-200"
-        >
-          <LazyLoadImage
-            className="w-10 pt-[0.40rem]"
-            effect='blur'
-            src={`/right-arrow-svgrepo-com.svg`}
-            alt={``}
-            height={`40px`}
-            width={`40px`}
-          />
-        </button>
-      </div>
-
     </section>
   );
 }
 
-export default Section2;
+export default Section3;
