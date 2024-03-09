@@ -4,7 +4,8 @@ import {
   RouterProvider,
   createBrowserRouter
 } from 'react-router-dom';
-import Shop from './pages/shop/Shop.tsx';
+const Shop = lazy(() => import('./pages/shop/Shop.tsx'))
+const Details = lazy(() => import('./pages/details/Details.tsx'))
 const Loader = lazy(() => import('./components/Loader.tsx'));
 const Layout = lazy(() => import('./components/Layout.tsx'));
 const Home = lazy(() => import('./pages/home/Home.tsx'));
@@ -22,6 +23,11 @@ const routes = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop />,
+        errorElement: <p>Error</p>
+      },
+      {
+        path: "/itemDetails",
+        element: <Details />,
         errorElement: <p>Error</p>
       }
     ]

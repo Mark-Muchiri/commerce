@@ -32,6 +32,12 @@ function Nav() {
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? `font-semibold text-amber-800` : ``)}
+                to="/itemDetails"
+              >
+                Details
+              </NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? `font-semibold text-amber-800` : ``)}
                 to="/aboutus"
               >
                 About us
