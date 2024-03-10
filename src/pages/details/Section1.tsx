@@ -68,7 +68,15 @@ function Section1() {
 						</div>
 						<div className=''>
 							<div className=''>
-								<p className='text-xl font-normal text-neutral-800'>Cart</p>
+								<span>
+									<LazyLoadImage
+										className='w-14'
+										src={`/shopping-cart.png`}
+										alt={``}
+										width={`40px`}
+										height={`36px`}
+									/>
+								</span>
 							</div>
 						</div>
 					</div>
