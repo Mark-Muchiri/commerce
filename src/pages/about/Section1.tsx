@@ -23,7 +23,7 @@ function Section1() {
 								</div>
 								{/* Sentence */}
 								<div className='flex justify-center items-center'>
-									<p className='pt-5 w-12/12 text-[21px] text-white'>
+									<p className='pt-5 w-12/12 text-[21px] leading-8 text-white'>
 										Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 										Corporis aspernatur modi nam possimus sequi, tempore, dicta
 										corrupti sed nobis autem iusto. Deleniti esse alias
