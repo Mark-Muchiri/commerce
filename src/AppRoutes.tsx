@@ -1,6 +1,7 @@
 import "./AppRoutes.css";
 import { lazy, Suspense } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+const Contacts = lazy(() => import("./pages/contact/Contacts.tsx"));
 const About = lazy(() => import("./pages/about/About.tsx"));
 const Shop = lazy(() => import("./pages/shop/Shop.tsx"));
 const Details = lazy(() => import("./pages/details/Details.tsx"));
@@ -31,6 +32,11 @@ const routes = createBrowserRouter([
 			{
 				path: "/aboutUs",
 				element: <About />,
+				errorElement: <p>Error</p>,
+			},
+			{
+				path: "/contacts",
+				element: <Contacts />,
 				errorElement: <p>Error</p>,
 			},
 		],

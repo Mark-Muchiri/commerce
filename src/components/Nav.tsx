@@ -48,7 +48,7 @@ function Nav() {
 								className={({ isActive }) =>
 									isActive ? `font-semibold text-amber-800` : ``
 								}
-								to='/#'
+								to='/contacts'
 							>
 								Contact
 							</NavLink>
